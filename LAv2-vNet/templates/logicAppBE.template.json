@@ -122,7 +122,21 @@
                         {
                             "name": "WEBSITE_DNS_SERVER",
                             "value": "168.63.129.16"
-                        }
+                        },                        
+                        {
+                            "name": "AzureFunctionsJobHost__extensionBundle__id",
+                            "value": "Microsoft.Azure.Functions.ExtensionBundle.Workflows"
+                        }                        
+                        ,                        
+                        {
+                            "name": "AzureFunctionsJobHost__extensionBundle__version",
+                            "value": "[1.*, 2.0.0)"
+                        }                        
+                        ,                        
+                        {
+                            "name": "WEBSITE_CONTENTOVERVNET",
+                            "value": "1"
+                        }   
                     ],
                     "use32BitWorkerProcess": "[parameters('use32BitWorkerProcess')]",
                     "cors": {
